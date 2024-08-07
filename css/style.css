@@ -31,6 +31,7 @@ header {
     rgba(6, 10, 79, 0) 100%
   );
   z-index: 1000;
+  color: #000;
 }
 
 .navbar {
@@ -131,13 +132,32 @@ color: #720455;
   gap: 20px;
 }
 
-#contacts{
-  display: flex;
-  flex-direction: column;
-  text-decoration: none;
+footer{
   background: #060a4f;
+  display: flex;
+  height: 300px;
+  width: 100%;
+
+}
+
+#contacts{
+  flex-direction: column;
 }
 
 #contacts a{
-color: #fff;
+  color: #fff;
+  text-decoration: none;
+  background: #720455;
+  width: 200px;
+  display: flex;
+margin: 10px;
+gap: 15px;
+height: 40px;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+}
+
+#copyright{
+  color: #fff;
 }
