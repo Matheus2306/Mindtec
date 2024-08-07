@@ -73,6 +73,23 @@ header {
   height: 700px;
 }
 
+.aboutUs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin: 20px 0 0 0;
+ gap: 30px;
+}
+
+#text2{
+  width: 35%;
+}
+
+#text2 p{
+  color: #720455;
+
+}
+
 .plans{
   display: flex;
 justify-content: center;
@@ -85,10 +102,16 @@ background: #f4f4f4;
 
 .plans p{
 text-transform: capitalize;
-font-size: 30px;
+color: #720455;
+
 }
 
-#text{
+.text{
   flex-direction: column;
   max-width: 400px;
+}
+
+#imgs{
+  display: flex;
+  gap: 20px;
 }
