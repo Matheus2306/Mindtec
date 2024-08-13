@@ -169,3 +169,34 @@ border-radius: 5px;
 display: flex;
 margin-top: auto;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.forms{
+  display: flex;
+  align-items: center;
+  width: 30%;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.forms a{
+  color: #720455;
+
+}
+
+.forms form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.forms h2{
+color: #720455;
+}
+
