@@ -175,6 +175,7 @@ margin-top: auto;
 .forms{
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 30%;
   flex-direction: column;
 
