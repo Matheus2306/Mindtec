@@ -170,22 +170,19 @@ display: flex;
 margin-top: auto;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-}
+
 
 .forms{
   display: flex;
   align-items: center;
   width: 30%;
-  padding: 20px;
   flex-direction: column;
+
 }
 
 .forms a{
   color: #720455;
-
+  width: 50px;
 }
 
 .forms form{
