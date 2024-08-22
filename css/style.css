@@ -90,49 +90,47 @@ max-width: 600px;
 color: #720455;
 } */
 
-.aboutUs{
+.aboutUs {
   display: flex;
   justify-content: center;
   align-items: center;
- margin: 20px 0 0 0;
- gap: 30px;
+  margin: 20px 0 0 0;
+  gap: 30px;
 }
 
-#text2{
+#text2 {
   width: 35%;
 }
 
-#text2 p{
+#text2 p {
   color: #720455;
-
 }
 
-.plans{
+.plans {
   display: flex;
-justify-content: center;
-align-items: center;
-margin:  125px 0 ;
-gap: 30px;
-max-height: 340px;
-background: #f4f4f4;
+  justify-content: center;
+  align-items: center;
+  margin: 125px 0;
+  gap: 30px;
+  max-height: 340px;
+  background: #f4f4f4;
 }
 
-.plans p{
-text-transform: capitalize;
-color: #720455;
-
+.plans p {
+  text-transform: capitalize;
+  color: #720455;
 }
 
-.text{
+.text {
   max-width: 400px;
 }
 
-#imgs{
+#imgs {
   display: flex;
   gap: 20px;
 }
 
-footer{
+footer {
   background: #060a4f;
   display: flex;
   height: 300px;
@@ -140,39 +138,37 @@ footer{
   justify-content: space-around;
 }
 
-footer div{
+footer div {
   color: #fff;
 }
 
-#contacts{
+#contacts {
   display: flex;
-width: 40%;
-flex-direction: column;
-justify-content: center;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#contacts a{
+#contacts a {
   color: #fff;
   text-decoration: none;
   background: #720455;
   width: 200px;
   display: flex;
-margin: 10px;
-gap: 15px;
-height: 40px;
-justify-content: center;
-align-items: center;
-border-radius: 5px;
+  margin: 10px;
+  gap: 15px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
 }
 
-#copyright{
-display: flex;
-margin-top: auto;
+#copyright {
+  display: flex;
+  margin-top: auto;
 }
 
-
-
-.forms{
+.forms {
   max-width: 100%;
   display: flex;
   align-items: center;
@@ -185,20 +181,17 @@ margin-top: auto;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
-#signup a{
+#signup a {
   display: flex;
   color: #720455;
   width: 30px;
   height: 30px;
   align-items: center;
-justify-content: center;
-margin: 0 10px;
+  justify-content: center;
+  margin: 0 10px;
 }
 
-
-
 .forms form {
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -209,26 +202,25 @@ margin: 0 10px;
   /* border: solid 2px #999; */
 }
 
-.forms h2{
+.forms h2 {
   color: #720455;
 }
 
-.forms input{
+.forms input {
   width: 50%;
   border: none;
   height: 30px;
   background: transparent;
-
 }
 
-#signup{
+#signup {
   display: flex;
   justify-content: center;
   width: 100%;
   margin: 220px 0;
 }
 
-.forms button{
+#submit {
   margin: 30px;
   border-radius: 5px;
   border: none;
@@ -236,4 +228,55 @@ margin: 0 10px;
   color: #fff;
   width: 20%;
   height: 30px;
+}
+
+#sign_in {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 220px 0;
+}
+
+#back {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  color: #720455;
+}
+
+.box {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  flex-direction: column;
+  background: #f1f1f1;
+  border-radius: 5px;
+  padding: 50px 0;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.box forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.box input{
+  width: 50%;
+  border: none;
+  height: 30px;
+  background: transparent;
+}
+
+.box a{
+  color: #0084f0;
 }
