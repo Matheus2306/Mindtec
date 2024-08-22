@@ -173,28 +173,67 @@ margin-top: auto;
 
 
 .forms{
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 30%;
   flex-direction: column;
-
+  background: #f1f1f1;
+  border-radius: 5px;
+  padding: 50px 0;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
-.forms a{
+#signup a{
+  display: flex;
   color: #720455;
-  width: 50px;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+justify-content: center;
+margin: 0 10px;
 }
 
-.forms form{
+
+
+.forms form {
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  width: 100%;
+  margin: 30px 0;
+  /* border: solid 2px #999; */
 }
 
 .forms h2{
-color: #720455;
+  color: #720455;
 }
 
+.forms input{
+  width: 50%;
+  border: none;
+  height: 30px;
+  background: transparent;
+
+}
+
+#signup{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 220px 0;
+}
+
+.forms button{
+  margin: 30px;
+  border-radius: 5px;
+  border: none;
+  background: #720455;
+  color: #fff;
+  width: 20%;
+  height: 30px;
+}
