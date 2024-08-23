@@ -5,7 +5,7 @@ body {
   font-size: 20px;
 }
 
-header {
+#home header {
   display: flex;
   justify-content: space-around;
   height: 125px;
@@ -270,13 +270,74 @@ footer div {
   margin: 30px 0;
 }
 
-.box input{
+.box input {
   width: 50%;
   border: none;
   height: 30px;
   background: transparent;
 }
 
-.box a{
+.box a {
   color: #0084f0;
+}
+
+#members header {
+  background: #060a4f;
+
+  width: 100%;
+  height: 125px;
+  display: flex;
+}
+
+#members header a {
+  color: #fff;
+  display: flex;
+  text-decoration: none;
+}
+
+#members #back{
+  margin: 30px;
+}
+
+#Matheus img{
+  border-radius: 100%;
+}
+
+#Matheus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 420px;
+}
+
+#Matheus h2{
+  color: #720455;
+}
+
+.imgteam {
+  margin: 80px 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#text4 h2{
+  text-transform: capitalize;
+color: #720455;
+}
+
+#text4{
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.box2{
+  display: flex ;
+  justify-content: center;
+align-items: center;
+  margin: 50px 0;
 }
